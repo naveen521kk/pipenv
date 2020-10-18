@@ -56,4 +56,4 @@ from .cli import cli
 from . import resolver  # noqa
 
 if __name__ == "__main__":
-    cli()
+    cli(prog_name="pipenv")
